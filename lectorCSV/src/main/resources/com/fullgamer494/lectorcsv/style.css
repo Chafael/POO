@@ -1,0 +1,145 @@
+.main-container {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.top-bar {
+    -fx-background-color: #F5F5F5;
+    -fx-padding: 10px;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 1 0;
+}
+
+.primary-button {
+    -fx-background-color: #D97706;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #EA580C;
+}
+
+.primary-button:pressed {
+    -fx-background-color: #C2410C;
+}
+
+.secondary-button {
+    -fx-background-color: #E0E0E0;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #CCCCCC;
+    -fx-border-color: #D97706;
+}
+
+.secondary-button:pressed {
+    -fx-background-color: #B0B0B0;
+}
+
+.data-scroll-pane {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 1px;
+}
+
+.data-container {
+    -fx-background-color: #FFFFFF;
+}
+
+.field-name-label {
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px;
+    -fx-background-color: #F0F0F0;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 1 0;
+    -fx-max-width: Infinity;
+    -fx-pref-width: 10000;
+}
+
+.field-value-label {
+    -fx-text-fill: #555555;
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 1 0;
+    -fx-font-family: "Consolas", "Courier New", monospace;
+    -fx-max-width: Infinity;
+    -fx-pref-width: 10000;
+}
+
+.field-value-label:hover {
+    -fx-background-color: #F9F9F9;
+}
+
+.bottom-controls {
+    -fx-background-color: #F5F5F5;
+    -fx-padding: 10px;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 1 0 0 0;
+}
+
+.nav-button {
+    -fx-background-color: #E0E0E0;
+    -fx-text-fill: #333333;
+    -fx-padding: 8px 12px;
+    -fx-cursor: hand;
+    -fx-border-color: #CCCCCC;
+    -fx-border-width: 1px;
+    -fx-font-size: 16px;
+    -fx-min-width: 40px;
+    -fx-pref-width: 40px;
+}
+
+.nav-button:hover {
+    -fx-background-color: #D97706;
+    -fx-text-fill: white;
+    -fx-border-color: #EA580C;
+}
+
+.nav-button:pressed {
+    -fx-background-color: #C2410C;
+}
+
+.nav-button:disabled {
+    -fx-background-color: #F5F5F5;
+    -fx-text-fill: #AAAAAA;
+    -fx-border-color: #E0E0E0;
+    -fx-cursor: default;
+}
+
+.counter-label {
+    -fx-text-fill: #D97706;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 15px;
+    -fx-background-color: #FFF7ED;
+    -fx-border-color: #D97706;
+    -fx-border-width: 1px;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: #F5F5F5;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #F0F0F0;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #CCCCCC;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #D97706;
+}
